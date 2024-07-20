@@ -1,0 +1,84 @@
+/* App.css */
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.form-container {
+  background-color: #742c2c;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.product-list {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.product-list a {
+  display: block;
+  color: #fdfbfb;
+  text-decoration: none;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-list a:hover {
+  background-color: #f1f1f1;
+}
+
+.product-details {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #742c2c;
+  max-width: 400px;
+}
